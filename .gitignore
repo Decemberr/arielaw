@@ -19,6 +19,7 @@ local_settings.py
 .env
 .env.local
 secret_key.txt
+notes-*.md
 
 # Media & Static Files (Collected)
 /media/
