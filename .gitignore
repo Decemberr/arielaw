@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+myvenv/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django Database (SQLite)
+*.sqlite3
+*.db
+db.sqlite3-journal
+
+# Local Settings & Secrets
+local_settings.py
+.env
+.env.local
+secret_key.txt
+
+# Media & Static Files (Collected)
+/media/
+/staticfiles/
+/static/
+
+# IDE & OS Specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store   
