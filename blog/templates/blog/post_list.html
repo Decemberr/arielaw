@@ -16,5 +16,15 @@
         <time>published: 18.09.2026, 18:12</time>
         <p>Lorem Ipsum dolor sit amet</p>
     </artitcle>
+
+    {% comment %} {{ posts }} {% endcomment %}
+
+    {% for post in posts %}
+        <article>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <time>published: {{ post.published_date }}</time>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </artitcle>
+    {% endfor %}
 </body>
 </html>
